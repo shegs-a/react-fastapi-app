@@ -8,12 +8,12 @@
   ### Default environment values
   These are some values that need to be provided before the app can run
   
-  | Name                              | Description                                                                                                               | Type  | Default Value |
+| Name                              | Description                                                                                                               | Type  | Default Value |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------|---------------|
-  |`HNG_LESSON_DAY`        | `The day of the lesson assignment or practical` | String | "day1"        |
-  | `HNG_API_ORIGINS`      | `The url of the frontend code for cors setting` | List   | 'http://localhost:3000' |
-  | `HNG_API_HOST` | `The host where you want to deploy the code`  | String | "localhost" |
-  | `HNG_API_PORT` | `The api port`         | int | 8000 |
+|`HNG_LESSON_DAY`        | `The day of the lesson assignment or practical` | String | "day1"        |
+| `HNG_API_ORIGINS`      | `The url of the frontend code for cors setting` | List   | 'http://localhost:3000' |
+| `HNG_API_HOST` | `The host where you want to deploy the code`  | String | "localhost" |
+| `HNG_API_PORT` | `The api port`         | int | 8000 |
 
 2. To deploy the frontend on your local machine do the following
   - cd into the `fe` folder
