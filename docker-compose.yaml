@@ -2,7 +2,7 @@
 volumes:
   api_data:
 
-#Run the frontend and backend containers using the docker images created above
+#Run the frontend and backend containers using their respective docker files
 services:
   backend:
     container_name: api
