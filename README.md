@@ -6,7 +6,8 @@
   - start the app `python main.py`
 
   ### Default environment values
-  These are some values that need to be provided before the app can run
+  These are some values that need to be provided before the app can run.
+  Create a .env file in the api folder and supply these variables into it.
   
 | Name                              | Description                                              | Type   | Default Value           |
 |-----------------------------------|----------------------------------------------------------|--------|-------------------------|
@@ -21,6 +22,8 @@
   - start the app `npm run start`
 
 ### Default environment values
+Create a .env file in the fe folder and supply these variables into it.
+
 | Name                              | Description                                              | Type   | Default Value           |
 |-----------------------------------|----------------------------------------------------------|--------|-------------------------|
 | `REACT_APP_API_URL`               | URL of the api endpoint                                  | String | <no-defaults>           |
