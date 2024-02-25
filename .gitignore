@@ -1,0 +1,3 @@
+#environment variables for the api and fe
+./api/.env
+./fe/.env
