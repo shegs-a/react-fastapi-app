@@ -1,0 +1,31 @@
+#declare the api volume
+volumes:
+  api_data:
+
+#Run the frontend and backend containers using the docker images created above
+services:
+  backend:
+    container_name: api
+    image: hng-day2-assignment-api
+    build:
+      context: api
+      dockerfile: Dockerfile
+    ports:
+      - 8000:8000
+    env_file:
+      - path: ./api/.env
+        required: true
+    volumes:
+      - api_data:/api/data
+  
+  frontend:
+    container_name: fe
+    image: hng-day2-assignment-fe
+    build: 
+      context: fe
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    env_file:
+      - path: ./fe/.env
+        required: true
